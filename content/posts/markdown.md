@@ -8,7 +8,7 @@ draft: false
 
 # 1. 标题（Atx形式表示）
 
-* 由n(1<=n<=6)个"# " 确定是n级标题。 
+* 由n(1<=n<=6)个"# "确定是n级标题。 
 
 # 2. 字体样式
 
@@ -28,24 +28,30 @@ draft: false
 4.1 无序列表
 -------------
 
-* "* " 、 "+ " 、 "- " 作为列表标记，可多级嵌套。
-    例：
+* "* "、 "+ "、 "- " 作为列表标记，可多级嵌套。
+
+    * 例：
+
+    ```
     * 无序列表
         * 无序列表
             * 无序列表
-
+    ```
 
 4.2 有序列表
 -------------
 
 * "n. " 设计各级列表及其嵌套（下级相对上级用4个空格或1个TAB键缩进)。
-    例：
+    * 例：
+
+    ```
     1. Hello World
     2. Hello World
         1.Hello World
         2.Hello World
     3. Hello World
         3.1 Hello World
+    ```
 
 4.3 列表的一些小Tips：
 ---------------------
@@ -70,7 +76,10 @@ draft: false
 
 * 行内代码：即使用 \`符号包裹代码。
 * 例：
+
+    ```
     `System.out.println("hello world");`
+    ```
 
 6.2 代码块：
 -------------
@@ -79,12 +88,14 @@ draft: false
 
 * 语法高亮：在` ``` `后添加` 使用的语言 `即可。
     * 例：
+
     ```java 
     System.out.print("hello world");
     ```
 
 * 代码行数：在` ``` `后添加 ` line-numbers `类就可以了。
     * 例：
+
     ```java {.line-numbers}
     System.out.println("hello world");
     ```
@@ -113,6 +124,7 @@ draft: false
 # 9.表格
 
 * 语法：
+
 ```
 First Header | Second Header
 ------------ | -------------
