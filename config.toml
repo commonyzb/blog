@@ -1,6 +1,6 @@
 baseURL = "https://commonyzb.github.io"
 languageCode = "zh-cn"
-title = "LeaveIt"
+title = "Yzb's Blog"
 theme = "LeaveIt"
 
 paginate = 12
@@ -43,7 +43,7 @@ preserveTaxonomyNames = true
     since = 2019
     author = "yzb"                              # Author's name
     avatar = "/images/me/avatar.jpeg"           # Author's avatar
-    subtitle = "我会更好，因为我没有停止"         # Subtitle
+    subtitle = "Do something for yourself"         # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
@@ -58,7 +58,7 @@ preserveTaxonomyNames = true
     license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
 [params.social]
-    GitHub = "xxoo"
+    GitHub = "commonyz.github.io"
     Twitter = "xxoo"
     Email   = "xxoo"
     Instagram = "xxoo"
